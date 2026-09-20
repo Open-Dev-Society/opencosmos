@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest something opencosmos should do
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: The situation you are in when you need this. Not the solution yet.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should happen?
+      description: What you would like opencosmos to do instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What have you tried?
+      description: Workarounds, other tools, or why the current behaviour does not fit.
+    validations:
+      required: false
